@@ -1,0 +1,156 @@
+body{
+    margin: 0%;
+    width: 100%;
+    background-color: hsl(0, 100%, 74%);
+     font-weight: 800;
+     font-family: 'poppins' , 'sans-serif';
+     font-size: 16px;
+     background-image: url(bg-intro-desktop.png);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+input{
+    display: flex;
+}
+.parent{
+    margin: 6rem auto;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 75%;
+}
+.first{
+    color: white;
+    align-items: center;
+    width: 40%;
+
+}
+.first h3{
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
+.purple{
+    background-color: hsl(248, 32%, 49%);
+    /*width: 100%;*/
+    margin: 0;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 8px;
+    margin-bottom: 20px;
+
+
+}
+.third{
+padding: 40px;
+width: 55%;
+}
+form{
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+input[type=text], select{
+    /*width: 100%;*/
+    padding: 12px 20px;
+    height: 50px;
+    margin: 8px 0;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select{
+   width: 100%;
+    padding: 12px 20px;
+    height: 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+        box-sizing: border-box;}
+.register{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    widows: 100%;
+    width: 100%;
+    justify-content: center;
+    border-radius: 3px;
+}
+.text{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:hsl(0, 100%, 74%) 
+    ;
+}
+@media screen and (min-width: 1440px){
+    body{
+        background-image: url(bg-intro-desktop.png);
+        background-color: hsl(0, 100%, 74%); 
+
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+    body{
+        background-image: url(bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%); 
+
+    }
+
+    .parent{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .first, .third{
+        width: 100%;
+    }
+
+    .first{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    body{
+        background-image: url(bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%); 
+
+    }
+
+    .parent{
+        flex-direction: column;
+        width: 94%;
+    }
+
+    .first, .third{
+        width: 100%;
+        padding: 0;
+    }
+
+    .first{
+        text-align: center;
+    }
+}
+
+    
+
