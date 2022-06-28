@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 body{
     margin: 0%;
     width: 100%;
@@ -32,6 +34,9 @@ input{
     font-weight: 800;
     
 }
+.first p{
+    font-weight: 500;
+}
 
 .purple{
     background-color: hsl(248, 32%, 49%);
@@ -42,8 +47,10 @@ input{
     border-radius: 5px;
     padding: 15px 8px;
     margin-bottom: 20px;
-
-
+    font-weight: 500;
+}
+.tint{
+    font-weight: 100;
 }
 .third{
 padding: 40px;
@@ -80,6 +87,7 @@ input[type=password], select{
     border-radius: 4px;
     background-color: white;
         box-sizing: border-box;}
+
 .register{
     background-color: hsl(154, 59%, 51%);
     color: white;
@@ -91,9 +99,11 @@ input[type=password], select{
     width: 100%;
     justify-content: center;
     border-radius: 3px;
+    font-weight: 600;
 }
 .text{
     text-align: center;
+    font-weight: 500;
 }
 a{
     text-decoration: none;
